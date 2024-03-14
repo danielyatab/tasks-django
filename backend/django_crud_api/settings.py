@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-##)z!xp4k6usd7l5i-*(&vy(iqtmmq7-vh+c*sf7-v3slb$%&n"
+SECRET_KEY = "hkPyKBHR14AYq44BgUuviGIlHvAF7iAR"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -71,6 +71,8 @@ TEMPLATES = [
         },
     },
 ]
+
+STATIC_ROOT = BASE_DIR/'staticfiles'
 
 WSGI_APPLICATION = "django_crud_api.wsgi.application"
 
